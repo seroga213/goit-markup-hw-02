@@ -1,0 +1,229 @@
+:root {
+    --main-text-color: #757575;
+    --accent-color: #2196f3;
+    --title-color: #212121;
+    --external-color: #ffffff;
+    --bg-color: #2f303a;
+    --ex-bg-color: #f5f4fa;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--external-color);
+  }
+  
+  .link {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .title {
+    color: var(--title-color);
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+  /* -------------header styles-------------- */
+  
+  .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
+  
+  .header-logo-black{
+    color: #000000;
+  }
+  
+  .header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+  }
+  
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .header-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
+  
+  .current,
+  .header-contact-link:hover,
+  .header-contact-link:focus {
+    color: var(--accent-color);
+  }
+  /*-----------Портфолио------------*/
+
+  .filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--ex-bg-color);
+    color: var(--title-color);
+    cursor: pointer;
+    border: none;
+  }
+  
+  .active,
+  .filter-btn:hover,
+  .filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--external-color);
+  }
+
+
+
+
+
+
+
+
+  /* ------------------hero styles---------------- */
+  
+  .hero {
+    background-color: var(--bg-color);
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--external-color);
+  }
+  
+  .hero-btn {
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--external-color);
+    cursor: pointer;
+    border: none;
+  }
+  
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: #188ce8;
+  }
+  
+  /* -------------Наши особенности------------ */
+    /*.about-us{
+    }
+    .about-us-item{
+    }
+    .about-us-list{    
+    }*/
+
+  .about-us-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .about-us-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  /* ------------Чем мы занимаемся------------- */
+  
+  .product-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  /* -----------------Наша команда------------- */
+  
+  .team {
+    background-color: var(--ex-bg-color);
+  }
+  .team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .team-name-title  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  .team-list-text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  
+  
+  /* -------------footer--------------- */
+  
+  .footer {
+    background-color: var(--bg-color);
+  }
+  .logo-white {
+    color: #ffffff;
+  }
+  .logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+  }
+  .footer-addr-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-addr-link[target='_blank'] {
+    color: #ffffff;
+  }
+  
+  .footer-addr-link:hover,
+  .footer-addr-link:focus {
+    color: var(--main-text-color);
+  }
+  
