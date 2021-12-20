@@ -98,9 +98,9 @@
     color: var(--external-color);
   }
  
-  .img-portfolio{
-    text-decoration: none;
-  }
+ /* .img-portfolio{
+    
+  }*/
   .project-list-title{
     font-weight: bold;
     font-size: 18px;
@@ -109,13 +109,16 @@
     letter-spacing: 0.06em;
   }
     
-  .about-us-text{
+ /* .about-us-text{
     font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
 
   }
+.about-us-text {
+    font-size: 14px;
+    line-height: 1.71;*/
 
 
 
@@ -166,11 +169,8 @@
     text-transform: uppercase;
   }
   
-  .about-us-text {
-    font-size: 14px;
-    line-height: 1.71;
+  
 
-  } 
   /* ------------Чем мы занимаемся------------- */
   
   .section-title {
